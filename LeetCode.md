@@ -1,136 +1,228 @@
-# 6-Month LeetCode DSA Mastery Plan
+# 6-Month Data Structures and Algorithms Study Plan with LeetCode
 
-## Overview
-This plan is designed for mastering Data Structures and Algorithms (DSA) in Python through LeetCode problems.
+## Daily Time Commitment: 2-3 hours
 
-## Daily Commitment
-- **Time**: 2-3 hours per day
+## Month 1: Fundamentals and Basic Data Structures
 
-## Weekly Segments
+### Week 1: Arrays and Strings
+Problems:
+1. Two Sum (Easy)
+2. Valid Palindrome (Easy)
+3. Reverse String (Easy)
+4. Container With Most Water (Medium)
+5. Longest Substring Without Repeating Characters (Medium)
 
-### Month 1: Arrays & Strings
+**Why these problems:** They introduce basic array manipulation, two-pointer techniques, and string operations.
 
-#### Week 1: Arrays
-- **Problems**:
-  1. [Two Sum](https://leetcode.com/problems/two-sum/) (Easy) - Fundamental for hash map usage.
-  2. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) (Easy) - Teaches array manipulation.
-  3. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) (Easy) - Understanding duplicates in arrays.
-  4. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) (Medium) - Importance of prefix and suffix products.
-  5. [Rotate Array](https://leetcode.com/problems/rotate-array/) (Medium) - Array rotation techniques.
+### Week 2: Linked Lists
+Problems:
+1. Reverse Linked List (Easy)
+2. Merge Two Sorted Lists (Easy)
+3. Linked List Cycle (Easy)
+4. Remove Nth Node From End of List (Medium)
+5. Add Two Numbers (Medium)
 
-#### Week 2: Strings
-- **Problems**:
-  1. [Reverse String](https://leetcode.com/problems/reverse-string/) (Easy) - Basic string manipulation.
-  2. [Valid Anagram](https://leetcode.com/problems/valid-anagram/) (Easy) - Character frequency comparison.
-  3. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) (Easy) - Handling alphanumeric characters.
-  4. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Medium) - Sliding window technique.
-  5. [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) (Medium) - Handling edge cases and conversions.
+**Why these problems:** These cover fundamental linked list operations and common interview questions.
 
-### Month 2: Linked Lists & Recursion
+### Week 3: Stacks and Queues
+Problems:
+1. Valid Parentheses (Easy)
+2. Implement Queue using Stacks (Easy)
+3. Min Stack (Easy)
+4. Evaluate Reverse Polish Notation (Medium)
+5. Daily Temperatures (Medium)
 
-#### Week 3: Linked Lists
-- **Problems**:
-  1. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) (Easy) - Basic linked list reversal.
-  2. [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) (Easy) - Finding the middle node.
-  3. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) (Easy) - Merging sorted linked lists.
-  4. [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) (Medium) - Detecting cycles in linked lists.
-  5. [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) (Medium) - Finding the intersection point.
+**Why these problems:** They teach stack and queue implementations and their applications.
 
-#### Week 4: Recursion
-- **Problems**:
-  1. [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) (Easy) - Basic recursion application.
-  2. [Factorial](https://leetcode.com/problems/factorial/) (Easy) - Understanding factorial computation.
-  3. [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) (Medium) - Backtracking with recursion.
-  4. [Subsets](https://leetcode.com/problems/subsets/) (Medium) - Generating all possible subsets.
-  5. [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) (Medium) - Tree traversal using recursion.
+### Week 4: Review and Practice
+- Revisit problems from weeks 1-3
+- Solve 2-3 new problems for each topic
+- Focus on optimizing solutions for time and space complexity
 
-### Month 3: Stacks, Queues & Trees
+## Month 2: Advanced Data Structures
 
-#### Week 5: Stacks & Queues
-- **Problems**:
-  1. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) (Easy) - Stack usage for parentheses matching.
-  2. [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) (Easy) - Implementing queues with stacks.
-  3. [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) (Medium) - Level-wise tree traversal.
-  4. [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) (Hard) - Tree serialization with queues.
-  5. [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) (Hard) - Deque usage for sliding window problems.
+### Week 5: Trees and Binary Search Trees
+Problems:
+1. Maximum Depth of Binary Tree (Easy)
+2. Invert Binary Tree (Easy)
+3. Validate Binary Search Tree (Medium)
+4. Binary Tree Level Order Traversal (Medium)
+5. Kth Smallest Element in a BST (Medium)
 
-#### Week 6: Trees
-- **Problems**:
-  1. [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) (Easy) - Checking tree symmetry.
-  2. [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) (Easy) - Calculating tree depth.
-  3. [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) (Medium) - Finding LCA in binary trees.
-  4. [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) (Medium) - Zigzag tree traversal.
-  5. [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) (Medium) - Tree reconstruction from traversal sequences.
+**Why these problems:** They cover various tree traversals and BST properties.
 
-### Month 4: Hash Tables & Sorting Algorithms
+### Week 6: Graphs
+Problems:
+1. Number of Islands (Medium)
+2. Clone Graph (Medium)
+3. Course Schedule (Medium)
+4. Word Ladder (Hard)
+5. Network Delay Time (Medium)
 
-#### Week 7: Hash Tables
-- **Problems**:
-  1. [Group Anagrams](https://leetcode.com/problems/group-anagrams/) (Medium) - Grouping anagrams using hash tables.
-  2. [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) (Medium) - Sliding window with hash map.
-  3. [Four Sum](https://leetcode.com/problems/4sum/) (Medium) - Hash map usage for finding quadruplets.
-  4. [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (Hard) - Sliding window with hash map for substring search.
-  5. [LRU Cache](https://leetcode.com/problems/lru-cache/) (Hard) - Implementing LRU cache using hash maps and linked lists.
+**Why these problems:** These introduce graph representations, DFS, BFS, and common graph algorithms.
 
-#### Week 8: Sorting Algorithms
-- **Problems**:
-  1. [Merge Intervals](https://leetcode.com/problems/merge-intervals/) (Medium) - Interval merging using sorting.
-  2. [Sort Colors](https://leetcode.com/problems/sort-colors/) (Medium) - Sorting array of colors.
-  3. [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) (Medium) - Using quickselect for finding kth largest.
-  4. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) (Medium) - Finding top k frequent elements using sorting.
-  5. [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) (Hard) - Finding median of two sorted arrays.
+### Week 7: Heaps and Priority Queues
+Problems:
+1. Kth Largest Element in an Array (Medium)
+2. Top K Frequent Elements (Medium)
+3. Merge K Sorted Lists (Hard)
+4. Find Median from Data Stream (Hard)
+5. Sliding Window Median (Hard)
 
-### Month 5: Dynamic Programming & Graphs
+**Why these problems:** They teach heap operations and priority queue applications.
 
-#### Week 9: Dynamic Programming
-- **Problems**:
-  1. [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) (Easy) - Basic DP problem.
-  2. [House Robber](https://leetcode.com/problems/house-robber/) (Easy) - DP problem with constraints.
-  3. [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) (Medium) - Finding LIS using DP.
-  4. [Coin Change](https://leetcode.com/problems/coin-change/) (Medium) - Minimum coin change problem.
-  5. [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) (Hard) - String matching with regex using DP.
+### Week 8: Review and Practice
+- Revisit problems from weeks 5-7
+- Solve 2-3 new problems for each topic
+- Focus on identifying patterns in problem-solving approaches
 
-#### Week 10: Graphs
-- **Problems**:
-  1. [Clone Graph](https://leetcode.com/problems/clone-graph/) (Medium) - Graph cloning using BFS or DFS.
-  2. [Course Schedule](https://leetcode.com/problems/course-schedule/) (Medium) - Graph cycle detection.
-  3. [Number of Islands](https://leetcode.com/problems/number-of-islands/) (Medium) - Counting islands in a grid.
-  4. [Word Ladder](https://leetcode.com/problems/word-ladder/) (Medium) - Shortest path in a graph.
-  5. [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) (Medium) - Validating tree properties in a graph.
+## Month 3: Algorithm Techniques (Part 1)
 
-### Month 6: Advanced Topics & Mock Interviews
+### Week 9: Two Pointers and Sliding Window
+Problems:
+1. Remove Duplicates from Sorted Array (Easy)
+2. 3Sum (Medium)
+3. Minimum Window Substring (Hard)
+4. Longest Repeating Character Replacement (Medium)
+5. Trapping Rain Water (Hard)
 
-#### Week 11: Advanced Topics
-- **Problems**:
-  1. [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) (Hard) - Advanced data structures like Binary Indexed Tree or Segment Tree.
-  2. [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) (Hard) - Sliding window with hash maps.
-  3. [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) (Hard) - Dynamic programming on matrices.
-  4. [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) (Hard) - Topological sorting in graphs.
-  5. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) (Hard) - Hash map usage for sequence detection.
+**Why these problems:** They teach efficient array/string manipulation techniques.
 
-#### Week 12: Mock Interviews & Final Review
-- **Mock Interviews**: Practice with a focus on problem-solving under time constraints.
-- **Final Review**: Revisit weak areas, solve mixed problems.
+### Week 10: Binary Search
+Problems:
+1. Binary Search (Easy)
+2. Search in Rotated Sorted Array (Medium)
+3. Find First and Last Position of Element in Sorted Array (Medium)
+4. Median of Two Sorted Arrays (Hard)
+5. Capacity To Ship Packages Within D Days (Medium)
 
-## Review Weeks
-- **Purpose**: Reinforce previously learned concepts, solve mixed problems.
-- **Frequency**: Every 4th week (e.g., end of Month 1, Month 2, etc.)
+**Why these problems:** These cover various applications of binary search.
 
-## Progress Tracking
-- **Milestones**: Weekly completion of designated problems.
-- **Assessment**: Weekly review of performance and understanding.
+### Week 11: Backtracking
+Problems:
+1. Letter Combinations of a Phone Number (Medium)
+2. Generate Parentheses (Medium)
+3. Permutations (Medium)
+4. Subsets (Medium)
+5. N-Queens (Hard)
 
-## Optimization Tips
-- **Python Optimization**: Use Python's built-in data structures effectively.
-- **Time/Space Complexity**: Analyze and optimize solutions for time and space efficiency.
+**Why these problems:** They introduce backtracking concepts and implementation.
 
-## LeetCode Study Plans
-- **Usage**: Follow LeetCode's curated problem sets for systematic learning.
-- **Customization**: Adapt plans to focus on weak areas or specific topics.
+### Week 12: Review and Practice
+- Revisit problems from weeks 9-11
+- Solve 2-3 new problems for each topic
+- Focus on optimizing backtracking solutions to avoid unnecessary computations
 
-## Problem Solving Strategy
-- **Approach**: Attempt problems independently for 30 minutes before reviewing solutions.
-- **Learning**: Understand different approaches from LeetCode's discussion forums and solution explanations.
+## Month 4: Algorithm Techniques (Part 2)
 
----
+### Week 13: Dynamic Programming (Part 1)
+Problems:
+1. Climbing Stairs (Easy)
+2. House Robber (Medium)
+3. Longest Increasing Subsequence (Medium)
+4. Coin Change (Medium)
+5. Unique Paths (Medium)
 
+**Why these problems:** They introduce DP concepts with increasing complexity.
+
+### Week 14: Dynamic Programming (Part 2)
+Problems:
+1. Edit Distance (Hard)
+2. Longest Common Subsequence (Medium)
+3. Best Time to Buy and Sell Stock with Cooldown (Medium)
+4. Burst Balloons (Hard)
+5. Regular Expression Matching (Hard)
+
+**Why these problems:** These cover more advanced DP applications.
+
+### Week 15: Greedy Algorithms
+Problems:
+1. Jump Game (Medium)
+2. Gas Station (Medium)
+3. Task Scheduler (Medium)
+4. Minimum Number of Arrows to Burst Balloons (Medium)
+5. Reorganize String (Medium)
+
+**Why these problems:** They teach greedy approach and its applications.
+
+### Week 16: Review and Practice
+- Revisit problems from weeks 13-15
+- Solve 2-3 new problems for each topic
+- Focus on recognizing DP and greedy patterns in new problems
+
+## Month 5: Advanced Topics and Optimization
+
+### Week 17: Bit Manipulation and Math
+Problems:
+1. Single Number (Easy)
+2. Counting Bits (Easy)
+3. Reverse Integer (Medium)
+4. Pow(x, n) (Medium)
+5. Divide Two Integers (Medium)
+
+**Why these problems:** They cover bit operations and mathematical problem-solving.
+
+### Week 18: Design Problems
+Problems:
+1. Implement Trie (Prefix Tree) (Medium)
+2. Design Add and Search Words Data Structure (Medium)
+3. LRU Cache (Medium)
+4. Serialize and Deserialize Binary Tree (Hard)
+5. Design Twitter (Medium)
+
+**Why these problems:** These teach system design and data structure design concepts.
+
+### Week 19: Advanced Graph Algorithms
+Problems:
+1. Cheapest Flights Within K Stops (Medium)
+2. Reconstruct Itinerary (Hard)
+3. Alien Dictionary (Hard)
+4. Longest Increasing Path in a Matrix (Hard)
+5. Critical Connections in a Network (Hard)
+
+**Why these problems:** They cover advanced graph algorithms like Dijkstra's, topological sort, and Tarjan's algorithm.
+
+### Week 20: Review and Practice
+- Revisit problems from weeks 17-19
+- Solve 2-3 new problems for each topic
+- Focus on optimizing solutions for space complexity
+
+## Month 6: Final Review and Mock Interviews
+
+### Week 21-23: Comprehensive Review
+- Spend each week revisiting one month's worth of topics
+- Solve new problems for each topic
+- Focus on solving medium and hard problems within 45 minutes
+
+### Week 24: Mock Interviews and Final Preparation
+- Conduct daily mock interviews (use LeetCode's mock interview feature or practice with peers)
+- Review company-specific questions on LeetCode
+- Practice explaining your thought process clearly
+
+## Tips for Optimizing Python Solutions:
+1. Use appropriate data structures (e.g., sets for O(1) lookup)
+2. Leverage Python's built-in functions and libraries
+3. Use list comprehensions for concise code
+4. Understand and utilize Python's memory model
+
+## Strategy for Using LeetCode's Study Plans:
+1. Follow the "LeetCode 75" study plan for a structured approach
+2. Use topic-wise problem sets to supplement your learning
+3. Attempt problems from the "Top Interview Questions" list
+
+## Approach to Problem Solving:
+1. Read the problem carefully and understand the constraints
+2. Think about the problem for 5-10 minutes before coding
+3. If stuck, try to solve for 30 minutes before looking at hints
+4. Implement your solution and test with provided examples
+5. Optimize your solution if it exceeds time/space limits
+6. After solving or after 45 minutes, look at other solutions
+
+## Maximizing Learning from LeetCode Discussions:
+1. After solving, read the top 2-3 voted solutions
+2. Understand the approach of solutions with better time/space complexity
+3. Implement the best solution yourself without looking at the code
+4. Contribute to discussions by explaining your approach
+5. Look for solution approaches in your preferred language (Python)
+
+Remember to track your progress using LeetCode's submission history and problem-solving statistics. Consistency is key in this learning journey. Good luck with your preparation!
